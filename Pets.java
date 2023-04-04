@@ -27,7 +27,7 @@ public class Pets {
     }
     void updateInfo(int num){
         this.num = num;
-        System.out.println("Brown Cat's weight is now 5kg");
+        System.out.println("Brown Cat's weight is now " +num+ "kg");
     }
     void updateInfo(String color,String habit){
         this.color = color;
